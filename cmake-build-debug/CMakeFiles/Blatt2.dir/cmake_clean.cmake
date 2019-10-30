@@ -1,10 +1,8 @@
 file(REMOVE_RECURSE
-  "Blatt2.exe"
-  "Blatt2.exe.manifest"
+  "CMakeFiles/Blatt2.dir/client.c.o"
+  "CMakeFiles/Blatt2.dir/server.c.o"
   "Blatt2.pdb"
-  "CMakeFiles/Blatt2.dir/client.c.obj"
-  "CMakeFiles/Blatt2.dir/server.c.obj"
-  "libBlatt2.dll.a"
+  "Blatt2"
 )
 
 # Per-language clean rules from dependency scanning.

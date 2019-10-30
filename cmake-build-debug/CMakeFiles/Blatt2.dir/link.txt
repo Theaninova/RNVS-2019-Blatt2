@@ -1,3 +1,1 @@
-"C:\Program Files\JetBrains\CLion 2019.2.4\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\Blatt2.dir/objects.a
-C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\ar.exe cr CMakeFiles\Blatt2.dir/objects.a @CMakeFiles\Blatt2.dir\objects1.rsp
-C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\Blatt2.dir/objects.a -Wl,--no-whole-archive  -o Blatt2.exe -Wl,--out-implib,libBlatt2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Blatt2.dir\linklibs.rsp
+/usr/bin/cc -g   CMakeFiles/Blatt2.dir/client.c.o CMakeFiles/Blatt2.dir/server.c.o  -o Blatt2 

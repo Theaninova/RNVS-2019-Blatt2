@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/Ping/Documents/TU-Berlin/Wi.Ing/Module/RnVs/Blatt2/client.c" "C:/Users/Ping/Documents/TU-Berlin/Wi.Ing/Module/RnVs/Blatt2/cmake-build-debug/CMakeFiles/Blatt2.dir/client.c.obj"
-  "C:/Users/Ping/Documents/TU-Berlin/Wi.Ing/Module/RnVs/Blatt2/server.c" "C:/Users/Ping/Documents/TU-Berlin/Wi.Ing/Module/RnVs/Blatt2/cmake-build-debug/CMakeFiles/Blatt2.dir/server.c.obj"
+  "/home/wulkanat/Git/rnvs/Blatt2/client.c" "/home/wulkanat/Git/rnvs/Blatt2/cmake-build-debug/CMakeFiles/Blatt2.dir/client.c.o"
+  "/home/wulkanat/Git/rnvs/Blatt2/server.c" "/home/wulkanat/Git/rnvs/Blatt2/cmake-build-debug/CMakeFiles/Blatt2.dir/server.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

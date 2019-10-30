@@ -14,6 +14,7 @@
 #include <arpa/inet.h>
 #include <sys/wait.h>
 #include <signal.h>
+#include <time.h>
 
 #define PORT "3490"  // the port users will be connecting to
 #define MAXSIZE 1000
@@ -46,7 +47,7 @@ void *get_in_addr(struct sockaddr *sa)
 char *getQuote(const char* file){
 
     FILE *fp;
-    char *buffer calloc(MAXSIZE,MAXSIZE* sizeof(char));
+    char *buffer = calloc(MAXSIZE,MAXSIZE* sizeof(char));
 
     fp = fopen(file, "r");
     if (fp == NULL){
@@ -160,7 +161,7 @@ int main(void)
 
         if (!fork()) { // this is the child process
             close(sockfd); // child doesn't need the listener
-            if (send(new_fd, getQuote("quote.txt"), 13, 0) == -1)
+            if (send(new_fd, getQuote("quotes.txt"), 13, 0) == -1)
                 perror("send");
             close(new_fd);
             exit(0);
