@@ -1,0 +1,92 @@
+Aufgabe 1:
+
+   TCP:		UDP:
+
+a) nein		nein
+b) ja		nein
+c) ja		ja
+d) ja		nein
+e) stream (kleine Teile)	datagram (ein paket)
+
+
+Aufgabe 2:
+
+a) socket:
+"Poststelle" des PC für Verbindung
+
+b) bind:
+bindet socket an einen Port (eher im server genutzt)
+
+c) listen:
+Port wird in "Lauschmodus" versetzt (eher server)
+
+d) accept:
+nimmt Anfrage zur Verbindung an (eher server)
+
+e) connect:
+verbindungsanfrage (bind) an server Port (eher von Cient)
+
+f) send:
+sendet Daten über/an socket
+
+g) recv:
+gibt Anzahl der Bytes zurück an Sender (muss in Schleife eingebaut werden)
+
+h) close:
+verbindungs Abbruch/schließen
+
+
+Aufgabe 3)
+Um einzellne Applikationen ansteuern zu können
+
+Aufgabe 4)
+"getaddrinfo()"
+
+!!! man getadrrinfo() !!!
+
+a)
+macht DNS rückgabe
+
+b)
+(char *node, char *service, struct addrinfo *hints, struct addrinfo **res)
+-> (URL,Port,  ,verkettete Liste an IP-adressen)
+
+c)
+siehe man Page
+
+d)
+durch den struct sockaddr im struct addrinfo
+
+e)
+IP adresse
+
+f)
+family:  IPv4 oder IPv6 oder was anderes
+socktye: datenstream nutzen (TCP)
+flags: "fill in my IP for me" !WICHTIG (im Server) zu Setzen! um mehr als local host zu erreichen
+
+
+
+Sonstiges  zur HA:
+
+- resv() in schleife laufen lassen
+- fread() anschauen für wie viele Zeichen man senden will 
+- schaun wie viel empfangen wird und dann auch senden
+
+./server 8200 quotes.txt
+./client localhost 8200
+- wäre nett wenns zufällige ausgabe der zitate ist
+- soll auf allen IP systemen antworten können
+- am ende der Zeile soll /n stehen.
+- CMake dabei hinzufügen
+- T08G06
+
+
+
+
+
+
+
+
+
+
