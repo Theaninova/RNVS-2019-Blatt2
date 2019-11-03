@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/wulkanat/Git/rnvs/Blatt2/server.c
+/mnt/e/Git/uni/Blatt2/server.c
 stdio.h
 -
 stdlib.h
@@ -16,8 +16,6 @@ unistd.h
 errno.h
 -
 string.h
--
-sys/types.h
 -
 sys/socket.h
 -

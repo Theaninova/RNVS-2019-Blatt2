@@ -1,4 +1,4 @@
-/home/wulkanat/Git/rnvs/Blatt2/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/wulkanat/Git/rnvs/Blatt2/cmake-build-debug/CMakeFiles/client.dir
-/home/wulkanat/Git/rnvs/Blatt2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/wulkanat/Git/rnvs/Blatt2/cmake-build-debug/CMakeFiles/server.dir
+/mnt/e/Git/uni/Blatt2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/e/Git/uni/Blatt2/cmake-build-debug/CMakeFiles/client.dir
+/mnt/e/Git/uni/Blatt2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/mnt/e/Git/uni/Blatt2/cmake-build-debug/CMakeFiles/server.dir

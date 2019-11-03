@@ -1,1 +1,0 @@
-/usr/bin/cc -g   CMakeFiles/Blatt2.dir/client.c.o CMakeFiles/Blatt2.dir/server.c.o  -o Blatt2 

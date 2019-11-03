@@ -6,20 +6,16 @@
 
 #IncludeRegexTransform: 
 
-/home/wulkanat/Git/rnvs/Blatt2/client.c
+/mnt/e/Git/uni/Blatt2/client.c
 stdio.h
 -
 stdlib.h
 -
 unistd.h
 -
-errno.h
--
 string.h
 -
 netdb.h
--
-sys/types.h
 -
 netinet/in.h
 -
